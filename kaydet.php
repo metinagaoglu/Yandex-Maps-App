@@ -6,7 +6,7 @@
     <?php  
     if ($_POST){
     	//print_r($_POST);
-    	$sql = "INSERT INTO `emlak`.`emlak` (`emlakID`, `ilan_baslik`, `ilan_adres`, `il_id`, `lat`, `lng`, `date`) VALUES (NULL, '{$_POST['ilan_baslik']}', '{$_POST['ilan_adres']}', '16' ,'{$_POST['lat']}', '{$_POST['lng']}', CURRENT_TIMESTAMP);";
+    	$sql = "INSERT INTO emlak (`emlakID`, `ilan_baslik`, `ilan_adres`, `il_id`, `lat`, `lng`, `date`) VALUES (NULL, '{$_POST['ilan_baslik']}', '{$_POST['ilan_adres']}', '16' ,'{$_POST['lat']}', '{$_POST['lng']}', CURRENT_TIMESTAMP);";
     	$db->query($sql);
         header("Location:$siteUrl/detay.php?emlakID={$db->insert_id}");
     }
