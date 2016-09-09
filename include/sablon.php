@@ -34,7 +34,7 @@ $siteUrl = "http://localhost/maps";
       <ul class="nav navbar-nav">
         <li <?php if($page == 1): echo 'class=active'; endif;?>><a href="<?=$siteUrl?>">Anasayfa <span class="sr-only">(current)</span></a></li>
         <li <?php if($page == 3): echo 'class=active'; endif;?>><a href="<?=$siteUrl?>/kaydet.php">Kaydet</a></li>
-        <li <?php if($page == 4): echo 'class=active'; endif;?>/yakinimdakiler.php">Yakınımdakiler</a></li>
+        <li <?php if($page == 4): echo 'class=active'; endif;?>><a href="<?=$siteUrl?>/yakinimdakiler.php">Yakınımdakiler</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
