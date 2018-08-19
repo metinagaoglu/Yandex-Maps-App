@@ -25,7 +25,7 @@ include 'db.php';
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Emlak </a>
+      <a class="navbar-brand" href="#">Yandex Map Example </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
